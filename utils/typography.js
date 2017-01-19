@@ -21,7 +21,7 @@ const options = {
       ],
     },
   ],
-  headerFontFamily: ['Montserrat', 'sans-serif'],
+  headerFontFamily: ['Arvo', 'sans-serif'],
   bodyFontFamily: ['Arvo', 'sans-serif'],
   baseFontSize: '18px',
   baseLineHeight: 1.65,
