@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.image {
+  max-width: 387px;
+  border: 2px solid #4D4D4D;
+  border-radius: 2px;
+  width: 50%;
+  min-width: 250px;
+  margin: 0 1rem 0 0;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  max-width: 75%;
+  width: 50%;
+  min-width: 250px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4D4D4D;
+  margin-bottom: .5rem;
+}
+
+.textBlock p {
+  font-size: .75rem;
+  line-height: 1.25rem;
+  color: #4D4D4D;
+  margin-bottom: .5rem;
+}
+
+.textBlock a {
+  font-style: italic;
+  font-size: .75rem;
+  color: #2F51B2;
+}
+.textBlock a:visited {
+  color: #2F51B2;
+}

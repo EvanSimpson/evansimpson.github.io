@@ -1,0 +1,76 @@
+{
+  "work": [
+    {
+      "img": "/images/final-dashboard.png",
+      "imgAlt": "Screenshot of Final customer dashboard.",
+      "title": "Final, Inc. Customer Dashboard",
+      "description": "Developed the customer dashboard that allows Final's credit card holders to manage their accounts, make payments, etc. Created custom application development framework. Designed user experience and information architecture.",
+      "link": "https://getfinal.com/",
+      "linkText": "more about Final"
+    },
+    {
+      "img": "/images/final-signup.png",
+      "imgAlt": "Screenshot of Final customer application page.",
+      "title": "Final, Inc. Credit Card Application",
+      "description": "Created a dynamic form application for collecting applicant data and account creation. Design work included site UX and responsive form UI.",
+      "link": "https://signup.getfinal.com/",
+      "linkText": "view live application"
+    },
+    {
+      "img": "/images/solidworks.png",
+      "imgAlt": "Screenshot of Apps for Kids website.",
+      "title": "Dassault Systèmes User Research",
+      "description": "Worked as user researcher and prototyping engineer on year-long consulting project for Dassault Systèmes Solidworks. Conducted user research among Solidworks users, designed and prototyped mobile extensions to desktop CAD software. Prototypes later became \"Capture It\" and \"Show It\" software products under \"Apps for Kids.\"",
+      "link": "http://appsforkids.solidworks.com/",
+      "linkText": "more about Apps for Kids"
+    },
+    {
+      "img": "/images/tessel.png",
+      "imgAlt": "Screenshot of Tessel Project website.",
+      "title": "The Tessel Project",
+      "description": "Worked as an intern on the open source Tessel Project. Created Javascript libraries for interacting with various hardware sensors and peripherals. Developed prototypes for OTA software updates and a universal protocol for remote sensor communication",
+      "link": "https://tessel.io/",
+      "linkText": "more about the Tessel Project"
+    },
+    {
+      "img": "/images/synclink.png",
+      "imgAlt": "Text: Disney SyncLink Technology.",
+      "title": "Disney SyncLink",
+      "description": "Developed an internal integrated hardware/software package to augment the Disney SyncLink platform. Created data pipeline for ETL and processing platform audit data.",
+      "link": "https://disneysynclink.com/",
+      "linkText": "more about SyncLink"
+    },
+    {
+      "img": "",
+      "imgAlt": "",
+      "title": "Course Instructor / Curriculum Development - Olin College",
+      "description": "Developed curriculum and co-taught courses in web application development, mobile application development, and introduction to programming in Python at Olin College of Engineering. Co-authored stand-alone version of web development course for self-directed learning.",
+      "link": "https://github.com/olinjs/olinjs",
+      "linkText": "view web development course material"
+    },
+    {
+      "img": "",
+      "imgAlt": "",
+      "title": "KAYAK Analytics Intern",
+      "description": "3 month internship at travel search company KAYAK. Developed computer vision software to automate selection of display image in hotel search results. Conducted various site analytics.",
+      "link": "",
+      "linkText": ""
+    },
+    {
+      "img": "",
+      "imgAlt": "",
+      "title": "RESC:UE LLC Co-Founder",
+      "description": "Designed and built novel portable photo-voltaic power systems. Toured California advocating renewable energy and educating youth through hands-on classroom workshops.",
+      "link": "",
+      "linkText": ""
+    }
+  ],
+  "schema": {
+    "img": "",
+    "imgAlt": "",
+    "title": "",
+    "description": "",
+    "link": "",
+    "linkText": ""
+  }
+}
