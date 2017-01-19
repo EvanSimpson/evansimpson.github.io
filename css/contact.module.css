@@ -1,0 +1,11 @@
+.container {
+  margin: auto;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.container p {
+  font-style: italic;
+  font-size: 1.25rem;
+  margin: 0;
+}
