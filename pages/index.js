@@ -6,8 +6,6 @@ import { config } from 'config'
 
 import styles from '../css/home.module.css';
 
-import Header from '../components/Header/Header';
-
 export default class Index extends React.Component {
   render () {
     return (
@@ -19,7 +17,6 @@ export default class Index extends React.Component {
             {"name": "keywords", "content": "software, developer, contractor, freelance, designer"},
           ]}
         />
-        <Header/>
       </div>
     )
   }

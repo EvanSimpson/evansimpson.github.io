@@ -21,6 +21,7 @@ module.exports = React.createClass({
     return (
       <div className={ styles.page }>
         <main className={ styles.contentContainer }>
+        <Header/>
           {this.props.children}
         </main>
       </div>
