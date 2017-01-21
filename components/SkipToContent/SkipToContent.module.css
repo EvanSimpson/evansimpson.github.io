@@ -1,0 +1,9 @@
+.link {
+  position: absolute;
+  top: 0;
+  right: 100%;
+}
+
+.link:focus {
+  right: auto;
+}

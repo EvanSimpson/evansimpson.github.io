@@ -8,6 +8,7 @@ import '../css/markdown-styles'
 import styles from '../css/template.module.css';
 
 import Header from '../components/Header/Header';
+import SkipToContent from '../components/SkipToContent/SkipToContent';
 
 import { rhythm } from '../utils/typography'
 
@@ -20,8 +21,9 @@ module.exports = React.createClass({
   render () {
     return (
       <div className={ styles.page }>
-        <main className={ styles.contentContainer }>
+        <SkipToContent/>
         <Header/>
+        <main className={ styles.contentContainer } id="main">
           {this.props.children}
         </main>
       </div>
