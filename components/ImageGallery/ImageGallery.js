@@ -29,8 +29,8 @@ class ImageGallery extends Component {
               isOpen: true,
               photoIndex: index
             })
-          }>
-          <img { ...image }/>
+          } }>
+          <img src={ image.src } alt={ image.alt }/>
         </a>
       );
     });
