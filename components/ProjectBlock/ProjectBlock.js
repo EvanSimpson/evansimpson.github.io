@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import styles from './ProjectBlock.module.css';
 
-let Lightbox;
+import Lightbox from 'react-images';
 
 class ProjectBlock extends Component {
 
@@ -10,32 +10,14 @@ class ProjectBlock extends Component {
     super(props);
     this.state = {
       isOpen: false,
-      linkImage: false,
-      lightbox: false
+      linkImage: false
     };
   }
 
   componentDidMount() {
-    if ( typeof window != indefined ) {
-      Lightbox = require('react-image-lightbox');
-      this.setState({
-        lightbox: true,
-        linkImage: true
-      });
-    }
-  }
-
-  getLightBox() {
-    if ( this.state.lightbox ) {
-      return (
-        <Lightbox
-          mainSrc={ this.props.img }
-          onCloseRequest={() => this.setState({ isOpen: false })}
-        />
-      );
-    } else {
-      return false;
-    }
+    this.setState({
+      linkImage: true
+    });
   }
 
   getImage() {
@@ -63,7 +45,16 @@ class ProjectBlock extends Component {
           </p>
           { this.props.children }
         </div>
-        { this.props.img && isOpen && this.getLightBox() }
+        { this.props.img && isOpen &&
+          <Lightbox
+            backdropClosesModal
+            images={ [{src: this.props.img}] }
+            isOpen={ this.state.isOpen }
+            currentImage={ 0 }
+            onClose={() => this.setState({ isOpen: false })}
+            showImageCount={ false }
+            width={ 700 }/>
+        }
       </div>
     );
   }
