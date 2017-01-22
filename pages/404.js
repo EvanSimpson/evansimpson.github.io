@@ -5,12 +5,10 @@ class FourOhFour extends Component {
 
   render() {
     return (
-      <div>
-        <div className={ styles.container }>
-          <p>
-            Looks like this page doesn't exist!
-          </p>
-        </div>
+      <div className={ styles.container }>
+        <p>
+          Looks like this page doesn't exist!
+        </p>
       </div>
     );
   }
