@@ -3,15 +3,26 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 2rem 0;
+}
+
+.container a {
+  display: block;
+  margin: 0 1rem 0 0;
+  max-width: 387px;
+  width: 50%;
+  min-width: 250px;
 }
 
 .image {
-  max-width: 387px;
-  border: 2px solid #4D4D4D;
+  box-shadow: 2px 2px 4px #4D4D4D;
   border-radius: 2px;
-  width: 50%;
+  max-width: 387px;
   min-width: 250px;
+  margin: 0;
+}
+
+.image.not(a>img) {
   margin: 0 1rem 0 0;
 }
 

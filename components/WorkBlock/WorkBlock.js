@@ -11,14 +11,23 @@ class WorkBlock extends Component {
     linkText: PropTypes.string
   };
 
+  getImage() {
+    return (
+      <img className={ styles.image }
+        src={ this.props.img }
+        alt={ this.props.imgAlt }/>
+    );
+  }
+
   render() {
     return (
       <section className={ styles.container }>
-        { this.props.img &&
-          <img className={ styles.image }
-            src={ this.props.img }
-            alt={ this.props.imgAlt }/>
-        }
+        { this.props.img && (this.props.link ?
+            <a href={ this.props.link }>
+              { this.getImage() }
+            </a>
+          : this.getImage()
+        )}
         <div className={ styles.textBlock }>
           <h3 className={ styles.title }>{ this.props.title }</h3>
           <p>{ this.props.description }</p>
