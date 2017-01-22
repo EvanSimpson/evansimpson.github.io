@@ -19,8 +19,8 @@ class Header extends Component {
         <nav className={ styles.nav }>
           <ul>
             <li>
-              <Link to={'/work/'}>
-                Work
+              <Link to={'/'}>
+                About
               </Link>
             </li>
             <li>
