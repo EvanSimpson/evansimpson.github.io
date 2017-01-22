@@ -13,7 +13,7 @@ class Header extends Component {
             </h1>
           </Link>
           <p>
-            Designer/Developer
+            Designer, Developer, Lifelong Learner
           </p>
         </header>
         <nav className={ styles.nav }>
