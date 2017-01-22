@@ -47,22 +47,6 @@
       "description": "Developed curriculum and co-taught courses in web application development, mobile application development, and introduction to programming in Python at Olin College of Engineering. Co-authored stand-alone version of web development course for self-directed learning.",
       "link": "https://github.com/olinjs/olinjs",
       "linkText": "view web development course material"
-    },
-    {
-      "img": "",
-      "imgAlt": "",
-      "title": "KAYAK Analytics Intern",
-      "description": "3 month internship at travel search company KAYAK. Developed computer vision software to automate selection of display image in hotel search results. Conducted various site analytics.",
-      "link": "",
-      "linkText": ""
-    },
-    {
-      "img": "",
-      "imgAlt": "",
-      "title": "RESC:UE LLC Co-Founder",
-      "description": "Designed and built novel portable photo-voltaic power systems. Toured California advocating renewable energy and educating youth through hands-on classroom workshops.",
-      "link": "",
-      "linkText": ""
     }
   ],
   "schema": {
