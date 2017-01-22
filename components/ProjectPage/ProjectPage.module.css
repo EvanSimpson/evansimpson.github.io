@@ -1,0 +1,15 @@
+.container {
+  color: #4D4D4D;
+  padding-top: 2rem;
+}
+
+.container h1 {
+  font-size: 1.75rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.container a {
+  font-style: italic;
+  color: #2F51B2;
+}
