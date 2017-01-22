@@ -1,4 +1,13 @@
 .contentContainer {
   max-width: 900px;
   margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 470px) {
+  .contentContainer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
