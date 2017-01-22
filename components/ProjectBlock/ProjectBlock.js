@@ -35,7 +35,10 @@ class ProjectBlock extends Component {
         }
         <div className={ styles.flowContainer }>
           { this.props.img && (linkImage ?
-              <a href="#" onClick={ () => this.setState({isOpen: true}) }>
+              <a href="#" onClick={ (evt) => {
+                evt.preventDefault();
+                this.setState({isOpen: true})
+              } }>
                 { this.getImage() }
               </a>
             : this.getImage()

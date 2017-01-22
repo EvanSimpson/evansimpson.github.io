@@ -23,7 +23,8 @@ class ImageGallery extends Component {
       return (
         <a href="#"
           key={ "image-" + index }
-          onClick={() =>
+          onClick={(evt) => {
+            evt.preventDefault();
             this.setState({
               isOpen: true,
               photoIndex: index
