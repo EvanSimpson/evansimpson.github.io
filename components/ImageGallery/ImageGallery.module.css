@@ -4,6 +4,10 @@
   justify-content: space-around;
 }
 
+.container a {
+  margin: 0;
+}
+
 .container img {
   box-shadow: 2px 2px 4px #4D4D4D;
   max-width: 250px;

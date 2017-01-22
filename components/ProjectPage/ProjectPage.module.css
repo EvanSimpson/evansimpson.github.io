@@ -3,6 +3,10 @@
   padding-top: 2rem;
 }
 
+.container header {
+  margin-bottom: 1.65rem;
+}
+
 .container h1 {
   font-size: 1.75rem;
   font-weight: normal;
