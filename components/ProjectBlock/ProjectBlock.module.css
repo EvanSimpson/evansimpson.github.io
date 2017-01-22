@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container h3 {
+  font-weight: normal;
+  color: #4D4D4D;
+}
+
+.flowContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.flowContainer p {
+  min-width: 200px;
+}
+
+.flowContainer a {
+  display: block;
+  margin: 20px auto;
+}
+
+.flowContainer img {
+  box-shadow: 2px 2px 4px #4D4D4D;
+  float: right;
+  width: 300px;
+}
+
+.flowContainer img.not(a>img) {
+  margin: 20px auto;
+}
+
+@media screen and (min-width: 600px) {
+  .flowContainer {
+    display: block;
+  }
+  .flowContainer img {
+    margin: 0 20px 20px;
+  }
+}
