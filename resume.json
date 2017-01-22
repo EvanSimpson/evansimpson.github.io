@@ -5,8 +5,8 @@
       "imgAlt": "Screenshot of Final customer dashboard.",
       "title": "Final, Inc. Customer Dashboard",
       "description": "Developed the customer dashboard that allows Final's credit card holders to manage their accounts, make payments, etc. Created custom application development framework. Designed user experience and information architecture.",
-      "link": "https://getfinal.com/",
-      "linkText": "more about Final"
+      "link": "/final-dashboard/",
+      "linkText": "more about this project"
     },
     {
       "img": "/images/final-signup.png",
