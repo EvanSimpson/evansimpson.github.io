@@ -17,12 +17,12 @@
       "linkText": "view live application"
     },
     {
-      "img": "/images/solidworks.png",
       "imgAlt": "Screenshot of Apps for Kids website.",
       "title": "Dassault Systèmes User Research",
       "description": "Worked as user researcher and prototyping engineer on year-long consulting project for Dassault Systèmes Solidworks. Conducted user research among Solidworks users, designed and prototyped mobile extensions to desktop CAD software. Prototypes later became \"Capture It\" and \"Show It\" software products under \"Apps for Kids.\"",
       "link": "http://appsforkids.solidworks.com/",
       "linkText": "more about Apps for Kids"
+      "img": "/images/ds.png",
     },
     {
       "img": "/images/tessel.png",
