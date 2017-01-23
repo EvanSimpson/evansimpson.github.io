@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import ProjectPage from '../components/ProjectPage/ProjectPage';
 import ProjectBlock from '../components/ProjectBlock/ProjectBlock';
-import ImageGallery from '../components/ImageGallery/ImageGallery';
 
 class Disney extends Component {
   render() {
