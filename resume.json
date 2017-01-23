@@ -37,8 +37,8 @@
       "imgAlt": "Text: Disney SyncLink Technology.",
       "title": "Disney SyncLink",
       "description": "Developed an internal integrated hardware/software package to augment the Disney SyncLink platform. Created data pipeline for ETL and processing platform audit data.",
-      "link": "https://disneysynclink.com/",
-      "linkText": "more about SyncLink"
+      "link": "/disney/",
+      "linkText": "more about this project"
     },
     {
       "img": "",
