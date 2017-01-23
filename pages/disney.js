@@ -16,15 +16,7 @@ class Disney extends Component {
           img={require("../assets/images/patent-fig.png")}
           imgAlt={ "Patent illustration: A group of people seated around a table while one person gives a presentation with the Technology Showcase." }>
         </ProjectBlock>
-        <ProjectBlock title={ <span>
-          A Universal Remote
-          <i className="fa fa-bluetooth-b" aria-hidden="true"></i>
-          <i className="fa fa-wifi" aria-hidden="true"></i>
-          <i className="fa fa-lightbulb-o" aria-hidden="true"></i>
-          <i className="fa fa-file-powerpoint-o" aria-hidden="true"></i>
-          <i className="fa fa-film" aria-hidden="true"></i>
-          <i className="fa fa-list-ol" aria-hidden="true"></i>
-          </span> }
+        <ProjectBlock title={ "A Universal Remote" }
           textContent={"The selling point of the Technology Schowcase is that it is able to seamlessly interopt with desktop publishing suites and a range of devices which all use their own communication protocols on various wireless communication channels. The hardware package needed to support connecting to devices over Bluetooth, WiFi, and broadcasting information over infrafed light (like a television remote). Meanwhile, the desktop software has to manage displaying slide shows, videos, and other document formats, while communicating with the hardware package."}>
         </ProjectBlock>
         <ProjectBlock title={"Other Work"}
