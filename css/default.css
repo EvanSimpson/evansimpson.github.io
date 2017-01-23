@@ -3,6 +3,10 @@ html {
   color: #4D4D4D;
 }
 
+body {
+  padding: 0 !important;
+}
+
 a {
   color: #4D4D4D;
 }
