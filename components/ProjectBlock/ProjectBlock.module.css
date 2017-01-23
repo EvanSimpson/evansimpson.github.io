@@ -14,16 +14,16 @@
   margin: 0 10px;
 }
 
-.flowContainer {
+.flowContainer, .reverseFlow {
   display: flex;
   flex-direction: column;
 }
 
-.flowContainer p {
+.flowContainer p, .reverseFlow p {
   min-width: 200px;
 }
 
-.flowContainer a:not(span>a) {
+.flowContainer a:not(span>a), .reverseFlow a:not(span>a) {
   display: block;
   margin: 20px auto;
 }
@@ -34,15 +34,21 @@
   width: 300px;
 }
 
-.flowContainer img.not(a>img) {
+.reverseFlow img {
+  box-shadow: 2px 2px 4px #4D4D4D;
+  float: left;
+  width: 300px;
+}
+
+.flowContainer img.not(a>img), .reverseFlow img.not(a>img) {
   margin: 20px auto;
 }
 
 @media screen and (min-width: 600px) {
-  .flowContainer {
+  .flowContainer, .reverseFlow {
     display: block;
   }
-  .flowContainer img {
+  .flowContainer img, .reverseFlow img {
     margin: 0 20px 20px;
   }
 }

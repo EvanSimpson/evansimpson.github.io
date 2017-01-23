@@ -33,7 +33,9 @@ class ProjectBlock extends Component {
             { this.props.title }
           </h3>
         }
-        <div className={ styles.flowContainer }>
+        <div className={ this.props.reverse ?
+            styles.reverseFlow
+          : styles.flowContainer }>
           { this.props.img && (linkImage ?
               <a href="#" onClick={ (evt) => {
                 evt.preventDefault();
