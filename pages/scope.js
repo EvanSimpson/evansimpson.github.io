@@ -10,10 +10,12 @@ class SCOPE extends Component {
       <ProjectPage title={ "Senior Capstone Consulting Project" }>
         <ProjectBlock
           img={ require("../assets/images/scope.png") }
+          imgAlt={ "A photo of a whiteboard with post-it notes. \"Areas of opportunity\" is written above." }
           textContent={ "As a part of my engineering degree program, I participated in a senior capstone consulting project. The capstone program pairs teams of 5-6 undergraduate students with established companies looking for creative solutions to a particular problem they face. My team was tasked by Dassault Systèmes SolidWorks to explore and invent novel mobile interface extensions to the SolidWorks desktop software." }>
         </ProjectBlock>
         <ProjectBlock
           img={ require("../assets/images/process.png") }
+          imgAlt={ "A diagram of the team's design and development process." }
           reverse
           textContent={"To focus our research, our team chose to explore how mobile experiences could shape an industrial designer's workflow. In all, we interviewed, observed, and co-designed with over a dozen different designers over an 8 month period. All the while, we were developing multiple prototypes to test our ideas."}>
         </ProjectBlock>
@@ -42,11 +44,11 @@ class SCOPE extends Component {
           <ImageGallery images={[
             {
               src: require("../assets/images/scope-p1.png"),
-              alt: ""
+              alt: "Project research poster, part 1."
             },
             {
               src: require("../assets/images/scope-p2.png"),
-              alt: ""
+              alt: "Project research poster, part 2."
             }
           ]}/>
         </ProjectBlock>

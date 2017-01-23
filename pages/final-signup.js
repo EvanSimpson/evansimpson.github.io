@@ -46,28 +46,28 @@ class FinalDashboard extends Component {
           <ImageGallery images={[
             {
               src: require("../assets/images/signup-start.png"),
-              alt: "",
-              description: ""
+              alt: "Screenshot of Final credit application page.",
+              description: "Some product information appears above the application form with links to more information."
             },
             {
               src: require("../assets/images/signup-form.png"),
-              alt: "",
-              description: ""
+              alt: "Screenshot of Final credit application page.",
+              description: "The application form, fully responsive and keyboard accessible."
             },
             {
               src: require("../assets/images/signup-review.png"),
-              alt: "",
-              description: ""
+              alt: "Screenshot of Final credit application page.",
+              description: "Final review before application submission."
             },
             {
               src: require("../assets/images/signup-disclosures.png"),
-              alt: "",
-              description: ""
+              alt: "Screenshot of Final credit application page.",
+              description: "Card holder terms and conditions to be acknowledged before submitting an application."
             },
             {
               src: require("../assets/images/signup-end.png"),
-              alt: "",
-              description: ""
+              alt: "Screenshot of Final credit application page.",
+              description: "After an application has been accepted, the applicant will see this splash page."
             }
           ]}/>
         </ProjectBlock>

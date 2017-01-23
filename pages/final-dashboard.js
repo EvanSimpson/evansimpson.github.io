@@ -69,11 +69,11 @@ class FinalDashboard extends Component {
           <ImageGallery images={[
             {
               src: require("../assets/images/final-res1.png"),
-              alt: ""
+              alt: "Screenshot of Final application at widescreen resolution."
             },
             {
               src: require("../assets/images/final-res2.png"),
-              alt: ""
+              alt: "Screenshot of Final application at mobile resolution."
             }
           ]}/>
         </ProjectBlock>
@@ -99,11 +99,11 @@ class FinalDashboard extends Component {
           <ImageGallery images={[
             {
               src: require("../assets/images/final-m1.png"),
-              alt: ""
+              alt: "Screenshot of Final Android app prototype login."
             },
             {
               src: require("../assets/images/final-m2.png"),
-              alt: ""
+              alt: "Screenshot of Final Android app prototype account overview."
             }
           ]}/>
         </ProjectBlock>
