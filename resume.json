@@ -4,7 +4,7 @@
       "img": "/images/final-dashboard.png",
       "imgAlt": "Screenshot of Final customer dashboard.",
       "title": "Final, Inc. Customer Dashboard",
-      "description": "Developed the customer dashboard that allows Final's credit card holders to manage their accounts, make payments, etc. Created custom application development framework. Designed user experience and information architecture.",
+      "description": "The Final customer dashboard allows Final’s credit card holders to view their account status, manage multiple merchant-locked cards, and make payments towards their accounts. Ultimately my role on this project involved not just developing the application, but also improving the product itself, the user experience, and in some cases the visual design.",
       "link": "/final-dashboard/",
       "linkText": "more about this project"
     },
@@ -14,29 +14,29 @@
       "title": "Final, Inc. Credit Card Application",
       "description": "Created a dynamic form application for collecting applicant data and account creation. Design work included site UX and responsive form UI.",
       "link": "https://signup.getfinal.com/",
-      "linkText": "view live application"
+      "linkText": "more about this project"
     },
     {
-      "imgAlt": "Screenshot of Apps for Kids website.",
-      "title": "Dassault Systèmes User Research",
-      "description": "Worked as user researcher and prototyping engineer on year-long consulting project for Dassault Systèmes Solidworks. Conducted user research among Solidworks users, designed and prototyped mobile extensions to desktop CAD software. Prototypes later became \"Capture It\" and \"Show It\" software products under \"Apps for Kids.\"",
-      "link": "http://appsforkids.solidworks.com/",
-      "linkText": "more about Apps for Kids"
       "img": "/images/ds.png",
+      "imgAlt": "Text: Dassault Systèmes",
+      "title": "Senior Capstone Consulting Project",
+      "description": "As a part of my engineering degree program, I participated in a senior capstone consulting project. The capstone program pairs teams of 5-6 undergraduate students with established companies looking for creative solutions to a particular problem they face. My team was tasked by Dassault Systèmes SolidWorks to explore and invent novel mobile interface extensions to the SolidWorks desktop software.",
+      "link": "/scope/",
+      "linkText": "more about this project"
     },
     {
       "img": "/images/tessel.png",
       "imgAlt": "Screenshot of Tessel Project website.",
       "title": "The Tessel Project",
-      "description": "Worked as an intern on the open source Tessel Project. Created Javascript libraries for interacting with various hardware sensors and peripherals. Developed prototypes for OTA software updates and a universal protocol for remote sensor communication",
+      "description": "I worked as an intern on the open source Tessel Project, creating Javascript libraries for interacting with various hardware sensors and peripherals. I also developed prototypes for OTA software updates and a universal protocol for remote sensor communication",
       "link": "https://tessel.io/",
       "linkText": "more about the Tessel Project"
     },
     {
       "img": "/images/synclink.png",
       "imgAlt": "Text: Disney SyncLink Technology.",
-      "title": "Disney SyncLink",
-      "description": "Developed an internal integrated hardware/software package to augment the Disney SyncLink platform. Created data pipeline for ETL and processing platform audit data.",
+      "title": "Disney Technology Showcase",
+      "description": "As a part of a 5 month internship with The Walt Disney Company, I developed a hardware and software package for authoring multi-media presentations which connect to and control various electronic devices in the presentation space. This project was designed to tie all of the technologies of the Disney SyncLink platform together, without the need to be inside a Disney theme park for the technologies to work.",
       "link": "/disney/",
       "linkText": "more about this project"
     },
@@ -44,7 +44,7 @@
       "img": "",
       "imgAlt": "",
       "title": "Course Instructor / Curriculum Development - Olin College",
-      "description": "Developed curriculum and co-taught courses in web application development, mobile application development, and introduction to programming in Python at Olin College of Engineering. Co-authored stand-alone version of web development course for self-directed learning.",
+      "description": "I developed the curriculum for and co-taught courses in web application development, mobile application development, and introduction to programming in Python at Olin College of Engineering. I also co-authored a stand-alone version of the web development course for self-directed learning.",
       "link": "https://github.com/olinjs/olinjs",
       "linkText": "view web development course material"
     }
