@@ -45,6 +45,7 @@ class ProjectBlock extends Component {
               </a>
             : this.getImage()
           )}
+          { this.props.floatingContent }
           <p>
             { this.props.textContent }
           </p>
