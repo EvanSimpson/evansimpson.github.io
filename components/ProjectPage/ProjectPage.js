@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import ExternalLink from '../ExternalLink/ExternalLink';
+
 import styles from './ProjectPage.module.css';
 
 class ProjectPage extends Component {
@@ -11,9 +13,9 @@ class ProjectPage extends Component {
             { this.props.title }
           </h1>
           { this.props.link &&
-            <a href={ this.props.link } target="_blank">
+            <ExternalLink href={ this.props.link }>
               { this.props.linkText }
-            </a>
+            </ExternalLink>
           }
         </header>
         { this.props.children }

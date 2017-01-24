@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import ExternalLink from '../components/ExternalLink/ExternalLink';
 import ProjectPage from '../components/ProjectPage/ProjectPage';
 import ProjectBlock from '../components/ProjectBlock/ProjectBlock';
 
@@ -11,7 +12,7 @@ class Disney extends Component {
       linkText={ "Link to patent application" }>
         <ProjectBlock textContent={
           <span>
-            As a part of a 5 month internship with The Walt Disney Company, I developed a hardware and software package for authoring multi-media presentations which connect to and control various electronic devices in the presentation space. This project was designed to tie all of the technologies of the <a href="https://disneysynclink.com/" target="_blank">Disney SyncLink platform</a> together, without the need to be inside a Disney theme park for the technologies to work. The culmination of the work was the application for the patent linked above.
+            As a part of a 5 month internship with The Walt Disney Company, I developed a hardware and software package for authoring multi-media presentations which connect to and control various electronic devices in the presentation space. This project was designed to tie all of the technologies of the <ExternalLink href="https://disneysynclink.com/">Disney SyncLink platform</ExternalLink> together, without the need to be inside a Disney theme park for the technologies to work. The culmination of the work was the application for the patent linked above.
           </span> }
           img={require("../assets/images/patent-fig.png")}
           imgAlt={ "Patent illustration: A group of people seated around a table while one person gives a presentation with the Technology Showcase." }>
