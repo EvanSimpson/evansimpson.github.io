@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import ExternalLink from '../components/ExternalLink/ExternalLink';
 import ProjectPage from '../components/ProjectPage/ProjectPage';
 import ProjectBlock from '../components/ProjectBlock/ProjectBlock';
 import ImageGallery from '../components/ImageGallery/ImageGallery';
