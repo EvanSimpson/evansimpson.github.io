@@ -21,7 +21,7 @@ export default class Index extends React.Component {
           ]}/>
         <div>
           <p>
-            I'm a designer and developer whose work is grounded in principles of accesibility, inclusion, and human centered design. I have experience working across many different kinds of software systems on cross-functional teams. I've co-authored a self-taught course on web development, developed computer vision software, and written Bluetooth libraries for embedded devices. Outside of work, I'm either hiking, running, reading, or hacking around with audio-driven LEDs.
+            I'm a designer and developer whose work is grounded in principles of accesibility, <a href="http://evansimpson.com/inclusive/">inclusion</a>, and human centered design. I have experience working across many different kinds of software systems on cross-functional teams. I've co-authored a self-taught course on web development, developed computer vision software, and written Bluetooth libraries for embedded devices. Outside of work, I'm either hiking, running, reading, or hacking around with sound-reactive lighting.
           </p>
           <div className={ styles.links }>
             <ExternalLink href="https://github.com/EvanSimpson">
