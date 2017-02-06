@@ -13,7 +13,7 @@ class ProjectPage extends Component {
             { this.props.title }
           </h1>
           { this.props.link &&
-            <ExternalLink href={ this.props.link }>
+            <ExternalLink href={ this.props.link } target="_blank">
               { this.props.linkText }
             </ExternalLink>
           }

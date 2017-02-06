@@ -39,7 +39,8 @@ class SCOPE extends Component {
         </ProjectBlock>
         <ProjectBlock textContent={
             <span>
-              After we handed off our research and our prototypes, Dassault Systèmes has since put many of the specific collaboration-centered features we developed into their new platform, <ExternalLink href="http://appsforkids.solidworks.com/">"Apps For Kids"</ExternalLink>. The extent of our publicly available research can be viewed in the image gallery below.
+              After we handed off our research and our prototypes, Dassault Systèmes has since put many of the specific collaboration-centered features we developed into their new platform, <ExternalLink href="http://appsforkids.solidworks.com/"
+              target="_blank">"Apps For Kids"</ExternalLink>. The extent of our publicly available research can be viewed in the image gallery below.
             </span>
             }>
           <ImageGallery images={[
